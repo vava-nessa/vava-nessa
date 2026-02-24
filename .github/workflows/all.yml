@@ -1,0 +1,845 @@
+# ==========================================================================
+# Metrics - All examples (METRICS_TOKEN only)
+# Auto-generated from lowlighter/metrics examples.yml
+# Secret used: GHKEY (GitHub PAT)
+# ==========================================================================
+
+name: Metrics
+on:
+  schedule:
+    - cron: "0 6 * * 1"  # Weekly on Monday at 6am UTC
+  workflow_dispatch:
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+
+      - name: 🗃️ Base content - Default metrics
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.base.svg
+          token: ${{ secrets.GHKEY }}
+          base: header, activity, community, repositories, metadata
+          user: ${{ github.repository_owner }}
+
+      - name: 🧱 Core - Large display
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.large.svg
+          token: ${{ secrets.GHKEY }}
+          config_display: large
+          user: ${{ github.repository_owner }}
+
+      - name: 🧱 Core - JSON metrics
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.example.json
+          token: ${{ secrets.GHKEY }}
+          config_output: json
+          user: ${{ github.repository_owner }}
+
+      - name: 🧱 Core - PNG metrics
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.example.png
+          token: ${{ secrets.GHKEY }}
+          config_output: png
+          user: ${{ github.repository_owner }}
+
+      - name: 🧱 Core - Metrics insights
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.insights.html
+          token: ${{ secrets.GHKEY }}
+          config_output: insights
+          user: ${{ github.repository_owner }}
+
+      - name: 🧱 Core - Plugin error example
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.error.svg
+          token: ${{ secrets.GHKEY }}
+          base: 
+          plugin_projects: yes
+          user: ${{ github.repository_owner }}
+
+      - name: 📅 Isometric commit calendar - Half-year calendar
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.isocalendar.svg
+          token: ${{ secrets.GHKEY }}
+          base: 
+          plugin_isocalendar: yes
+          user: ${{ github.repository_owner }}
+
+      - name: 📅 Isometric commit calendar - Full-year calendar
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.isocalendar.fullyear.svg
+          token: ${{ secrets.GHKEY }}
+          base: 
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+          user: ${{ github.repository_owner }}
+
+      - name: 🈷️ Languages activity - Most used
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.languages.svg
+          token: ${{ secrets.GHKEY }}
+          base: 
+          plugin_languages: yes
+          plugin_languages_ignored: html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, shell, gnuplot
+          plugin_languages_limit: 4
+          user: ${{ github.repository_owner }}
+
+      - name: 🈷️ Languages activity - Most used (with details)
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.languages.details.svg
+          token: ${{ secrets.GHKEY }}
+          base: 
+          plugin_languages: yes
+          plugin_languages_ignored: html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, shell, gnuplot
+          plugin_languages_details: bytes-size, percentage
+          plugin_languages_limit: 4
+          user: ${{ github.repository_owner }}
+
+      - name: 🈷️ Languages activity - Recently used
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.languages.recent.svg
+          token: ${{ secrets.GHKEY }}
+          base: 
+          plugin_languages: yes
+          plugin_languages_ignored: html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, shell, gnuplot
+          plugin_languages_sections: recently-used
+          plugin_languages_details: bytes-size, percentage
+          plugin_languages_limit: 4
+          user: ${{ github.repository_owner }}
+
+      - name: 🈷️ Languages activity - Indepth analysis
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.languages.indepth.svg
+          token: ${{ secrets.GHKEY }}
+          base: 
+          plugin_languages: yes
+          plugin_languages_ignored: html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, shell, gnuplot
+          plugin_languages_indepth: yes
+          plugin_languages_details: lines, bytes-size
+          plugin_languages_limit: 4
+          plugin_languages_analysis_timeout: 15
+          user: ${{ github.repository_owner }}
+
+      - name: ✨ Stargazers - Using classic charts
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.stargazers.svg
+          token: ${{ secrets.GHKEY }}
+          base: 
+          plugin_stargazers: yes
+          user: ${{ github.repository_owner }}
+
+      - name: ✨ Stargazers - Using graph charts
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.stargazers.graph.svg
+          token: ${{ secrets.GHKEY }}
+          base: 
+          plugin_stargazers: yes
+          plugin_stargazers_charts_type: graph
+          user: ${{ github.repository_owner }}
+
+      - name: 👨‍💻 Lines of code changed - Compact display in base plugin
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.lines.svg
+          token: ${{ secrets.GHKEY }}
+          base: repositories
+          plugin_lines: yes
+          plugin_lines_delay: 30
+          user: ${{ github.repository_owner }}
+
+      - name: 👨‍💻 Lines of code changed - Repositories and diff history
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.lines.history.svg
+          token: ${{ secrets.GHKEY }}
+          base: 
+          plugin_lines: yes
+          plugin_lines_delay: 30
+          plugin_lines_sections: repositories, history
+          plugin_lines_repositories_limit: 2
+          plugin_lines_history_limit: 1
+          repositories_skipped: @use.patterns
+*/*
++lowlighter/metrics
+
+          user: ${{ github.repository_owner }}
+
+      - name: 📌 Starred topics - Labels
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.topics.svg
+          token: ${{ secrets.GHKEY }}
+          base: 
+          plugin_topics: yes
+          plugin_topics_limit: 12
+          user: ${{ github.repository_owner }}
+
+      - name: 📌 Starred topics - Icons
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.topics.icons.svg
+          token: ${{ secrets.GHKEY }}
+          base: 
+          plugin_topics: yes
+          plugin_topics_limit: 0
+          plugin_topics_mode: icons
+          user: ${{ github.repository_owner }}
+
+      - name: 🌟 Recently starred repositories - Recently starred
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.stars.svg
+          token: ${{ secrets.GHKEY }}
+          base: 
+          plugin_stars: yes
+          plugin_stars_limit: 3
+          user: ${{ github.repository_owner }}
+
+      - name: 📜 Repository licenses - Licenses and permissions
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.licenses.svg
+          token: ${{ secrets.GHKEY }}
+          base: 
+          template: repository
+          plugin_licenses: yes
+          plugin_licenses_setup: bash -c '[[ -f package.json ]] && npm ci || true'
+          user: ${{ github.repository_owner }}
+
+      - name: 📜 Repository licenses - Licenses with open-source ratio graphs
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.licenses.ratio.svg
+          token: ${{ secrets.GHKEY }}
+          base: 
+          template: repository
+          plugin_licenses: yes
+          plugin_licenses_setup: bash -c '[[ -f package.json ]] && npm ci || true'
+          plugin_licenses_legal: no
+          plugin_licenses_ratio: yes
+          user: ${{ github.repository_owner }}
+
+      - name: 💡 Coding habits and activity - Mildly interesting facts
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.habits.facts.svg
+          token: ${{ secrets.GHKEY }}
+          base: 
+          plugin_habits: yes
+          plugin_habits_facts: yes
+          plugin_habits_charts: no
+          config_timezone: Europe/Paris
+          user: ${{ github.repository_owner }}
+
+      - name: 💡 Coding habits and activity - Recent activity charts
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.habits.charts.svg
+          token: ${{ secrets.GHKEY }}
+          base: 
+          plugin_habits: yes
+          plugin_habits_facts: no
+          plugin_habits_charts: yes
+          config_timezone: Europe/Paris
+          user: ${{ github.repository_owner }}
+
+      - name: 🏅 Repository contributors - Contributors with contributions count
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.contributors.contributions.svg
+          token: ${{ secrets.GHKEY }}
+          base: 
+          template: repository
+          plugin_contributors: yes
+          plugin_contributors_contributions: yes
+          user: ${{ github.repository_owner }}
+
+      - name: 🏅 Repository contributors - Contributors by categories
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.contributors.categories.svg
+          token: ${{ secrets.GHKEY }}
+          base: 
+          template: repository
+          plugin_contributors: yes
+          plugin_contributors_sections: categories
+          plugin_contributors_categories: {
+  "🧩 Plugins / 🖼️ templates":["source/plugins/**", "source/templates/**"],
+  "📚 Documentation":["README.md", "**/README.md", "**/metadata.yml"],
+  "💻 Code (other)":["source/**", "Dockerfile"]
+}
+
+          user: ${{ github.repository_owner }}
+
+      - name: 🎟️ Follow-up of issues and pull requests - Opened on user's repositories
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.followup.svg
+          token: ${{ secrets.GHKEY }}
+          base: 
+          plugin_followup: yes
+          user: ${{ github.repository_owner }}
+
+      - name: 🎟️ Follow-up of issues and pull requests - Opened by user
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.followup.user.svg
+          token: ${{ secrets.GHKEY }}
+          base: 
+          plugin_followup: yes
+          plugin_followup_sections: user
+          user: ${{ github.repository_owner }}
+
+      - name: 🎟️ Follow-up of issues and pull requests - Indepth analysis
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.followup.indepth.svg
+          token: ${{ secrets.GHKEY }}
+          base: 
+          plugin_followup: yes
+          plugin_followup_indepth: yes
+          user: ${{ github.repository_owner }}
+
+      - name: 🎭 Comment reactions - Comment reactions
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.reactions.svg
+          token: ${{ secrets.GHKEY }}
+          base: 
+          plugin_reactions: yes
+          plugin_reactions_limit: 100
+          plugin_reactions_details: percentage
+          user: ${{ github.repository_owner }}
+
+      - name: 🧑‍🤝‍🧑 People - Followers
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.people.followers.svg
+          token: ${{ secrets.GHKEY }}
+          base: 
+          plugin_people: yes
+          plugin_people_types: followers
+          user: ${{ github.repository_owner }}
+
+      - name: 🧑‍🤝‍🧑 People - Contributors and sponsors
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.people.repository.svg
+          token: ${{ secrets.GHKEY }}
+          base: 
+          template: repository
+          plugin_people: yes
+          plugin_people_types: contributors, stargazers, watchers, sponsors
+          user: ${{ github.repository_owner }}
+
+      - name: 📓 Featured repositories - Featured repositories
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.repositories.svg
+          token: ${{ secrets.GHKEY }}
+          base: 
+          plugin_repositories: yes
+          plugin_repositories_featured: lowlighter/metrics
+          user: ${{ github.repository_owner }}
+
+      - name: 📓 Featured repositories - Pinned repositories
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.repositories.pinned.svg
+          token: ${{ secrets.GHKEY }}
+          base: 
+          plugin_repositories: yes
+          plugin_repositories_pinned: 2
+          user: ${{ github.repository_owner }}
+
+      - name: 💬 Discussions - GitHub Discussions
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.discussions.svg
+          token: ${{ secrets.GHKEY }}
+          base: 
+          plugin_discussions: yes
+          plugin_discussions_categories_limit: 8
+          user: ${{ github.repository_owner }}
+
+      - name: 💫 Star lists - Featured star list
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.starlists.svg
+          token: ${{ secrets.GHKEY }}
+          base: 
+          plugin_starlists: yes
+          plugin_starlists_limit_repositories: 2
+          plugin_starlists_only: TC39
+          user: ${{ github.repository_owner }}
+
+      - name: 💫 Star lists - Featured star list languages
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.starlists.languages.svg
+          token: ${{ secrets.GHKEY }}
+          base: 
+          plugin_starlists: yes
+          plugin_starlists_languages: yes
+          plugin_starlists_limit_languages: 8
+          plugin_starlists_limit_repositories: 0
+          plugin_starlists_only: Awesome
+          user: ${{ github.repository_owner }}
+
+      - name: 📆 Commit calendar - Current year calendar
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.calendar.svg
+          token: ${{ secrets.GHKEY }}
+          base: 
+          plugin_calendar: yes
+          user: ${{ github.repository_owner }}
+
+      - name: 📆 Commit calendar - Full history calendar
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.calendar.full.svg
+          token: ${{ secrets.GHKEY }}
+          base: 
+          plugin_calendar: yes
+          plugin_calendar_limit: 0
+          user: ${{ github.repository_owner }}
+
+      - name: 🏆 Achievements - Detailed display
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.achievements.svg
+          token: ${{ secrets.GHKEY }}
+          base: 
+          plugin_achievements: yes
+          plugin_achievements_only: sponsor, maintainer, octonaut
+          user: ${{ github.repository_owner }}
+
+      - name: 🏆 Achievements - Compact display
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.achievements.compact.svg
+          token: ${{ secrets.GHKEY }}
+          base: 
+          plugin_achievements: yes
+          plugin_achievements_only: polyglot, stargazer, sponsor, deployer, member, maintainer, developer, scripter, packager, explorer, infographile, manager
+          plugin_achievements_display: compact
+          plugin_achievements_threshold: X
+          user: ${{ github.repository_owner }}
+
+      - name: 🎩 Notable contributions - Contributions
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.notable.svg
+          token: ${{ secrets.GHKEY }}
+          base: 
+          plugin_notable: yes
+          user: ${{ github.repository_owner }}
+
+      - name: 🎩 Notable contributions - Indepth analysis
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.notable.indepth.svg
+          token: ${{ secrets.GHKEY }}
+          base: 
+          plugin_notable: yes
+          plugin_notable_indepth: yes
+          plugin_notable_repositories: yes
+          user: ${{ github.repository_owner }}
+
+      - name: 📰 Recent activity - Recent activity
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.activity.svg
+          token: ${{ secrets.GHKEY }}
+          base: 
+          plugin_activity: yes
+          plugin_activity_limit: 5
+          plugin_activity_days: 0
+          plugin_activity_filter: issue, pr, release, fork, review, ref/create
+          user: ${{ github.repository_owner }}
+
+      - name: ♐ Random code snippet - JavaScript or TypeScript snippet of the day
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.code.svg
+          token: ${{ secrets.GHKEY }}
+          base: 
+          plugin_code: yes
+          plugin_code_languages: javascript, typescript
+          plugin_code_load: 400
+          user: ${{ github.repository_owner }}
+
+      - name: 🎫 Gists - Gists
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.gists.svg
+          token: ${{ secrets.GHKEY }}
+          base: 
+          plugin_gists: yes
+          user: ${{ github.repository_owner }}
+
+      - name: 🙋 Introduction - Repository introduction
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.introduction.repository.svg
+          token: ${{ secrets.GHKEY }}
+          template: repository
+          base: header
+          plugin_introduction: yes
+          user: ${{ github.repository_owner }}
+
+      - name: 🗨️ Stack Overflow - Top answers from stackoverflow
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.stackoverflow.svg
+          token: ${{ secrets.GHKEY }}
+          base: 
+          plugin_stackoverflow: yes
+          plugin_stackoverflow_user: 1
+          plugin_stackoverflow_sections: answers-top
+          plugin_stackoverflow_limit: 2
+          user: ${{ github.repository_owner }}
+
+      - name: 🌸 Anilist watch list and reading list - Favorites anime and currently watching
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.anilist.svg
+          token: ${{ secrets.GHKEY }}
+          base: 
+          plugin_anilist: yes
+          plugin_anilist_medias: anime
+          plugin_anilist_sections: favorites, watching
+          plugin_anilist_limit: 1
+          user: ${{ github.repository_owner }}
+
+      - name: 🌸 Anilist watch list and reading list - Favorites manga and currently reading
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.anilist.manga.svg
+          token: ${{ secrets.GHKEY }}
+          base: 
+          plugin_anilist: yes
+          plugin_anilist_medias: manga
+          plugin_anilist_sections: favorites, reading
+          plugin_anilist_limit: 1
+          user: ${{ github.repository_owner }}
+
+      - name: 🌸 Anilist watch list and reading list - Favorites characters
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.anilist.characters.svg
+          token: ${{ secrets.GHKEY }}
+          base: 
+          plugin_anilist: yes
+          plugin_anilist_sections: characters
+          plugin_anilist_limit_characters: 22
+          user: ${{ github.repository_owner }}
+
+      - name: 🎼 Music activity and suggestions - Apple Music - Random track from playlist
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.music.playlist.svg
+          token: ${{ secrets.GHKEY }}
+          base: 
+          plugin_music: yes
+          plugin_music_playlist: https://embed.music.apple.com/fr/playlist/usr-share/pl.u-V9D7m8Etjmjd0D
+          plugin_music_limit: 2
+          user: ${{ github.repository_owner }}
+
+      - name: 🎼 Music activity and suggestions - Spotify - Random track from playlist
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.music.playlist.spotify.svg
+          token: ${{ secrets.GHKEY }}
+          base: 
+          plugin_music: yes
+          plugin_music_playlist: https://open.spotify.com/embed/playlist/3nfA87oeJw4LFVcUDjRcqi
+          user: ${{ github.repository_owner }}
+
+      - name: 🎼 Music activity and suggestions - Youtube Music - Random track from playlist
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.GHKEY }}
+          base: 
+          plugin_music: yes
+          plugin_music_playlist: https://music.youtube.com/playlist?list=OLAK5uy_kU_uxp9TUOl9zVdw77xith8o9AknVwz9U
+          user: ${{ github.repository_owner }}
+
+      - name: ✒️ Recent posts - Recent posts
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.posts.svg
+          token: ${{ secrets.GHKEY }}
+          base: 
+          plugin_posts: yes
+          plugin_posts_source: dev.to
+          user: ${{ github.repository_owner }}
+
+      - name: ✒️ Recent posts - Recent posts with descriptions and cover images
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.posts.full.svg
+          token: ${{ secrets.GHKEY }}
+          base: 
+          plugin_posts: yes
+          plugin_posts_source: dev.to
+          plugin_posts_limit: 2
+          plugin_posts_descriptions: yes
+          plugin_posts_covers: yes
+          user: ${{ github.repository_owner }}
+
+      - name: 🗼 Rss feed - News from hackernews
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.rss.svg
+          token: ${{ secrets.GHKEY }}
+          base: 
+          plugin_rss: yes
+          plugin_rss_source: https://news.ycombinator.com/rss
+          plugin_rss_limit: 4
+          user: ${{ github.repository_owner }}
+
+      - name: ⏰ WakaTime - WakaTime
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.wakatime.svg
+          token: ${{ secrets.GHKEY }}
+          base: 
+          plugin_wakatime: yes
+          plugin_wakatime_sections: time, projects, projects-graphs, languages, languages-graphs, editors, os
+          plugin_wakatime_token: MOCKED_TOKEN
+          use_mocked_data: yes
+          user: ${{ github.repository_owner }}
+
+      - name: 🗳️ Leetcode - LeetCode
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.leetcode.svg
+          token: ${{ secrets.GHKEY }}
+          base: 
+          plugin_leetcode: yes
+          plugin_leetcode_sections: solved, skills, recent
+          user: ${{ github.repository_owner }}
+
+      - name: 🕹️ Steam - Recently played games
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.steam.svg
+          token: ${{ secrets.GHKEY }}
+          base: 
+          plugin_steam_token: MOCKED_TOKEN
+          plugin_steam: yes
+          plugin_steam_user: 0
+          plugin_steam_sections: recently-played
+          plugin_steam_achievements_limit: 0
+          use_mocked_data: yes
+          user: ${{ github.repository_owner }}
+
+      - name: 🕹️ Steam - Profile and detailed game history
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.steam.full.svg
+          token: ${{ secrets.GHKEY }}
+          base: 
+          plugin_steam_token: MOCKED_TOKEN
+          plugin_steam: yes
+          plugin_steam_user: 0
+          use_mocked_data: yes
+          user: ${{ github.repository_owner }}
+
+      - name: 🥠 Fortune - Fortune
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.fortune.svg
+          token: ${{ secrets.GHKEY }}
+          base: 
+          plugin_fortune: yes
+          user: ${{ github.repository_owner }}
+
+      - name: 📸 Website screenshot - XKCD of the day
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.screenshot.svg
+          token: ${{ secrets.GHKEY }}
+          base: 
+          plugin_screenshot: yes
+          plugin_screenshot_title: XKCD of the day
+          plugin_screenshot_url: https://xkcd.com
+          plugin_screenshot_selector: #comic img
+          user: ${{ github.repository_owner }}
+
+      - name: 📗 Classic template - Example
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.classic.svg
+          token: ${{ secrets.GHKEY }}
+          base: header, repositories
+          plugin_lines: yes
+          user: ${{ github.repository_owner }}
+
+      - name: 📙 Terminal template - Example
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          template: terminal
+          filename: metrics.terminal.svg
+          token: ${{ secrets.GHKEY }}
+          base: header, metadata
+          user: ${{ github.repository_owner }}
+
+      - name: 📒 Markdown template - Example
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          template: markdown
+          filename: metrics.markdown.md
+          markdown: https://raw.githubusercontent.com/lowlighter/metrics/examples/metrics.markdown.template.md
+          config_output: markdown
+          token: ${{ secrets.GHKEY }}
+          committer_branch: examples
+          user: ${{ github.repository_owner }}
+
+      - name: 📒 Markdown template - Example with plugins configuration for embed use
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          template: markdown
+          filename: metrics.markdown.full.md
+          markdown: https://raw.githubusercontent.com/lowlighter/metrics/master/source/templates/markdown/example.md
+          config_output: markdown
+          plugin_activity: yes
+          plugin_activity_limit: 7
+          plugin_activity_days: 0
+          plugin_activity_filter: issue, pr, release, fork, review, ref/create
+          plugin_posts: yes
+          plugin_posts_source: dev.to
+          plugin_posts_descriptions: yes
+          plugin_posts_covers: yes
+          plugin_posts_limit: 2
+          plugin_rss: yes
+          plugin_rss_source: https://news.ycombinator.com/rss
+          plugin_rss_limit: 4
+          plugin_topics: yes
+          plugin_topics_limit: 24
+          plugin_isocalendar: yes
+          plugin_languages: yes
+          token: ${{ secrets.GHKEY }}
+          committer_branch: examples
+          user: ${{ github.repository_owner }}
+
+      - name: 📒 Markdown template - Example (pdf output)
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          template: markdown
+          filename: metrics.markdown.pdf
+          markdown: https://raw.githubusercontent.com/lowlighter/metrics/master/source/templates/markdown/example.pdf.md
+          config_output: markdown-pdf
+          plugin_rss: yes
+          plugin_rss_source: https://news.ycombinator.com/rss
+          plugin_rss_limit: 4
+          plugin_isocalendar: yes
+          config_twemoji: yes
+          config_padding: 5%
+          token: ${{ secrets.GHKEY }}
+          committer_branch: examples
+          user: ${{ github.repository_owner }}
+
+      - name: 📕 Community templates - Using a community template
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.GHKEY }}
+          template: @classic
+          setup_community_templates: lowlighter/metrics@master:classic
+          user: ${{ github.repository_owner }}
+
+      - name: 📕 Community templates - Using a trusted community template
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.GHKEY }}
+          template: @terminal
+          setup_community_templates: lowlighter/metrics@master:terminal+trust
+          user: ${{ github.repository_owner }}
