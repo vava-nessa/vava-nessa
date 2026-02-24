@@ -6,4 +6,4 @@
 
 🎶 When I'm not coding, I'm probably making electronic music with Ableton Live and way too many VSTs, reading AI research papers, or cuddling my cats. There's something about sound design that scratches the same creative itch as programming.
 
-![](metrics.plugin.stargazers.svg)
+<img src="metrics.plugin.stargazers.svg" style="width:100%;" alt="Stargazers chart" />
