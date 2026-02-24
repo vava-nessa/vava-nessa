@@ -7,7 +7,7 @@
 name: Metrics
 on:
   schedule:
-    - cron: "0 6 * * 1"  # Weekly on Monday at 6am UTC
+    - cron: "0 */12 * * *"  # Weekly on Monday at 6am UTC
   workflow_dispatch:
 
 jobs:
