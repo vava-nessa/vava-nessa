@@ -20,16 +20,7 @@
                                 <path fill-rule="evenodd" d="M8 5.5a2.5 2.5 0 100 5 2.5 2.5 0 000-5zM4 8a4 4 0 118 0 4 4 0 01-8 0z"/>
                             </svg>
                             <div class="infos">
-                                <div class="title">Building a Procedural Hex Map with Wave Function Collapse</div>
-                                <div class="date">9 Mar 2026</div>
-                            </div>
-                        </div>
-                        <div class="field rss">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                <path fill-rule="evenodd" d="M8 5.5a2.5 2.5 0 100 5 2.5 2.5 0 000-5zM4 8a4 4 0 118 0 4 4 0 01-8 0z"/>
-                            </svg>
-                            <div class="infos">
-                                <div class="title">It looks like the “JVG algorithm” only wins on tiny numbers</div>
+                                <div class="title">I put my whole life into a single database</div>
                                 <div class="date">10 Mar 2026</div>
                             </div>
                         </div>
@@ -38,8 +29,8 @@
                                 <path fill-rule="evenodd" d="M8 5.5a2.5 2.5 0 100 5 2.5 2.5 0 000-5zM4 8a4 4 0 118 0 4 4 0 01-8 0z"/>
                             </svg>
                             <div class="infos">
-                                <div class="title">JSLinux Now Supports x86_64</div>
-                                <div class="date">9 Mar 2026</div>
+                                <div class="title">Redox OS has adopted a Certificate of Origin policy and a strict no-LLM policy</div>
+                                <div class="date">10 Mar 2026</div>
                             </div>
                         </div>
                         <div class="field rss">
@@ -47,8 +38,17 @@
                                 <path fill-rule="evenodd" d="M8 5.5a2.5 2.5 0 100 5 2.5 2.5 0 000-5zM4 8a4 4 0 118 0 4 4 0 01-8 0z"/>
                             </svg>
                             <div class="infos">
-                                <div class="title">Show HN: Remotely use my guitar tuner</div>
-                                <div class="date">6 Mar 2026</div>
+                                <div class="title">FreeBSD 14.4-Release Announcement</div>
+                                <div class="date">10 Mar 2026</div>
+                            </div>
+                        </div>
+                        <div class="field rss">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                <path fill-rule="evenodd" d="M8 5.5a2.5 2.5 0 100 5 2.5 2.5 0 000-5zM4 8a4 4 0 118 0 4 4 0 01-8 0z"/>
+                            </svg>
+                            <div class="infos">
+                                <div class="title">The Gervais Principle, or the Office According to "The Office" (2009)</div>
+                                <div class="date">7 Mar 2026</div>
                             </div>
                         </div>
                     </section>
