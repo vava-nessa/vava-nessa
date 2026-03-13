@@ -24,7 +24,7 @@
 🪐 Currently orchestrating agents, code and chaos.
 
 
-## Current Public Projects 🌸
+## Current Projects 🌸
 
 - 📊 **[Free Coding Models](https://www.npmjs.com/package/free-coding-models)** - Free AI model monitoring TUI Tool.
 
@@ -32,7 +32,7 @@
 
 
 
-## Projects I'm building now ☘️
+## Projects coming soon☘️
 
 - ⭐️  **[Model Radar](https://www.modelradar.dev)** - Discover, evaluate & track the latest AI coding models, tools and more.
 
