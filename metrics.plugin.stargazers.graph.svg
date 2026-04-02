@@ -77,72 +77,76 @@
                                 </g>
                             </g>
                             <g transform="translate(10,10)" fill="none" font-size="10" font-family="sans-serif" text-anchor="start">
-                                <g class="tick" opacity="1" transform="translate(0,27.166666666666664)">
+                                <g class="tick" opacity="1" transform="translate(0,14.737288135593209)">
+                                    <line stroke="currentColor" x2="460" stroke-opacity="0.5" stroke-dasharray="2,2"/>
+                                    <text fill="rgba(127, 127, 127, .8)" x="0" dy="-4">840</text>
+                                </g>
+                                <g class="tick" opacity="1" transform="translate(0,42.98587570621469)">
                                     <line stroke="currentColor" x2="460" stroke-opacity="0.5" stroke-dasharray="2,2"/>
                                     <text fill="rgba(127, 127, 127, .8)" x="0" dy="-4">820</text>
                                 </g>
-                                <g class="tick" opacity="1" transform="translate(0,57.46969696969697)">
+                                <g class="tick" opacity="1" transform="translate(0,71.23446327683615)">
                                     <line stroke="currentColor" x2="460" stroke-opacity="0.5" stroke-dasharray="2,2"/>
                                     <text fill="rgba(127, 127, 127, .8)" x="0" dy="-4">800</text>
                                 </g>
-                                <g class="tick" opacity="1" transform="translate(0,87.77272727272727)">
+                                <g class="tick" opacity="1" transform="translate(0,99.48305084745763)">
                                     <line stroke="currentColor" x2="460" stroke-opacity="0.5" stroke-dasharray="2,2"/>
                                     <text fill="rgba(127, 127, 127, .8)" x="0" dy="-4">780</text>
                                 </g>
-                                <g class="tick" opacity="1" transform="translate(0,118.07575757575758)">
+                                <g class="tick" opacity="1" transform="translate(0,127.73163841807909)">
                                     <line stroke="currentColor" x2="460" stroke-opacity="0.5" stroke-dasharray="2,2"/>
                                     <text fill="rgba(127, 127, 127, .8)" x="0" dy="-4">760</text>
                                 </g>
-                                <g class="tick" opacity="1" transform="translate(0,148.37878787878788)">
+                                <g class="tick" opacity="1" transform="translate(0,155.9802259887006)">
                                     <line stroke="currentColor" x2="460" stroke-opacity="0.5" stroke-dasharray="2,2"/>
                                     <text fill="rgba(127, 127, 127, .8)" x="0" dy="-4">740</text>
                                 </g>
-                                <g class="tick" opacity="1" transform="translate(0,178.6818181818182)">
+                                <g class="tick" opacity="1" transform="translate(0,184.22881355932202)">
                                     <line stroke="currentColor" x2="460" stroke-opacity="0.5" stroke-dasharray="2,2"/>
                                     <text fill="rgba(127, 127, 127, .8)" x="0" dy="-4">720</text>
                                 </g>
-                                <g class="tick" opacity="1" transform="translate(0,208.9848484848485)">
+                                <g class="tick" opacity="1" transform="translate(0,212.4774011299435)">
                                     <line stroke="currentColor" x2="460" stroke-opacity="0.5" stroke-dasharray="2,2"/>
                                     <text fill="rgba(127, 127, 127, .8)" x="0" dy="-4">700</text>
                                 </g>
-                                <g class="tick" opacity="1" transform="translate(0,239.28787878787878)">
+                                <g class="tick" opacity="1" transform="translate(0,240.72598870056498)">
                                     <line stroke="currentColor" x2="460" stroke-opacity="0.5" stroke-dasharray="2,2"/>
                                     <text fill="rgba(127, 127, 127, .8)" x="0" dy="-4">680</text>
                                 </g>
                             </g>
-                            <path transform="translate(10,10)" d="M10,260L44.615,252.424L79.231,229.697L113.846,216.061L148.462,205.455L183.077,197.879L217.692,167.576L252.308,150.909L286.923,103.939L321.538,69.091L356.154,44.848L390.769,31.212L425.385,10L460,10" fill="transparent" stroke="#87ceeb" stroke-width="2"/>
-                            <path transform="translate(10,10)" d="M10,260L44.615,260L79.231,260L113.846,260L148.462,260L183.077,260L217.692,260L252.308,260L286.923,260L321.538,260L356.154,260L390.769,260L425.385,260L460,260L460,10L425.385,10L390.769,31.212L356.154,44.848L321.538,69.091L286.923,103.939L252.308,150.909L217.692,167.576L183.077,197.879L148.462,205.455L113.846,216.061L79.231,229.697L44.615,252.424L10,260Z" fill="rgba(88, 166, 255, .1)"/>
+                            <path transform="translate(10,10)" d="M10,260L44.615,252.938L79.231,231.751L113.846,219.04L148.462,209.153L183.077,202.09L217.692,173.842L252.308,158.305L286.923,114.52L321.538,82.034L356.154,59.435L390.769,46.723L425.385,26.949L460,10" fill="transparent" stroke="#87ceeb" stroke-width="2"/>
+                            <path transform="translate(10,10)" d="M10,260L44.615,260L79.231,260L113.846,260L148.462,260L183.077,260L217.692,260L252.308,260L286.923,260L321.538,260L356.154,260L390.769,260L425.385,260L460,260L460,10L425.385,26.949L390.769,46.723L356.154,59.435L321.538,82.034L286.923,114.52L252.308,158.305L217.692,173.842L183.077,202.09L148.462,209.153L113.846,219.04L79.231,231.751L44.615,252.938L10,260Z" fill="rgba(88, 166, 255, .1)"/>
                             <g>
                                 <circle transform="translate(10,10)" cx="10" cy="260" r="2" fill="#106cbc"/>
-                                <circle transform="translate(10,10)" cx="44.61538461538462" cy="252.42424242424244" r="2" fill="#106cbc"/>
-                                <circle transform="translate(10,10)" cx="79.23076923076924" cy="229.6969696969697" r="2" fill="#106cbc"/>
-                                <circle transform="translate(10,10)" cx="113.84615384615385" cy="216.06060606060606" r="2" fill="#106cbc"/>
-                                <circle transform="translate(10,10)" cx="148.46153846153848" cy="205.45454545454547" r="2" fill="#106cbc"/>
-                                <circle transform="translate(10,10)" cx="183.0769230769231" cy="197.87878787878788" r="2" fill="#106cbc"/>
-                                <circle transform="translate(10,10)" cx="217.6923076923077" cy="167.5757575757576" r="2" fill="#106cbc"/>
-                                <circle transform="translate(10,10)" cx="252.3076923076923" cy="150.90909090909093" r="2" fill="#106cbc"/>
-                                <circle transform="translate(10,10)" cx="286.92307692307696" cy="103.93939393939394" r="2" fill="#106cbc"/>
-                                <circle transform="translate(10,10)" cx="321.53846153846155" cy="69.09090909090908" r="2" fill="#106cbc"/>
-                                <circle transform="translate(10,10)" cx="356.1538461538462" cy="44.848484848484844" r="2" fill="#106cbc"/>
-                                <circle transform="translate(10,10)" cx="390.7692307692308" cy="31.21212121212121" r="2" fill="#106cbc"/>
-                                <circle transform="translate(10,10)" cx="425.3846153846154" cy="10" r="2" fill="#106cbc"/>
+                                <circle transform="translate(10,10)" cx="44.61538461538462" cy="252.93785310734464" r="2" fill="#106cbc"/>
+                                <circle transform="translate(10,10)" cx="79.23076923076924" cy="231.75141242937855" r="2" fill="#106cbc"/>
+                                <circle transform="translate(10,10)" cx="113.84615384615385" cy="219.0395480225989" r="2" fill="#106cbc"/>
+                                <circle transform="translate(10,10)" cx="148.46153846153848" cy="209.15254237288133" r="2" fill="#106cbc"/>
+                                <circle transform="translate(10,10)" cx="183.0769230769231" cy="202.090395480226" r="2" fill="#106cbc"/>
+                                <circle transform="translate(10,10)" cx="217.6923076923077" cy="173.84180790960448" r="2" fill="#106cbc"/>
+                                <circle transform="translate(10,10)" cx="252.3076923076923" cy="158.3050847457627" r="2" fill="#106cbc"/>
+                                <circle transform="translate(10,10)" cx="286.92307692307696" cy="114.51977401129945" r="2" fill="#106cbc"/>
+                                <circle transform="translate(10,10)" cx="321.53846153846155" cy="82.03389830508475" r="2" fill="#106cbc"/>
+                                <circle transform="translate(10,10)" cx="356.1538461538462" cy="59.43502824858756" r="2" fill="#106cbc"/>
+                                <circle transform="translate(10,10)" cx="390.7692307692308" cy="46.7231638418079" r="2" fill="#106cbc"/>
+                                <circle transform="translate(10,10)" cx="425.3846153846154" cy="26.949152542372893" r="2" fill="#106cbc"/>
                                 <circle transform="translate(10,10)" cx="460" cy="10" r="2" fill="#106cbc"/>
                             </g>
                             <g fill="currentColor" text-anchor="middle" font-family="sans-serif" font-size="10" stroke="rgba(88, 166, 255, .05)" stroke-linejoin="round" stroke-width="4" paint-order="stroke fill">
                                 <text transform="translate(10,6)" x="10" y="260" fill="rgba(127, 127, 127, .8)">666</text>
-                                <text transform="translate(10,6)" x="44.61538461538462" y="252.42424242424244" fill="rgba(127, 127, 127, .8)">671</text>
-                                <text transform="translate(10,6)" x="79.23076923076924" y="229.6969696969697" fill="rgba(127, 127, 127, .8)">686</text>
-                                <text transform="translate(10,6)" x="113.84615384615385" y="216.06060606060606" fill="rgba(127, 127, 127, .8)">695</text>
-                                <text transform="translate(10,6)" x="148.46153846153848" y="205.45454545454547" fill="rgba(127, 127, 127, .8)">702</text>
-                                <text transform="translate(10,6)" x="183.0769230769231" y="197.87878787878788" fill="rgba(127, 127, 127, .8)">707</text>
-                                <text transform="translate(10,6)" x="217.6923076923077" y="167.5757575757576" fill="rgba(127, 127, 127, .8)">727</text>
-                                <text transform="translate(10,6)" x="252.3076923076923" y="150.90909090909093" fill="rgba(127, 127, 127, .8)">738</text>
-                                <text transform="translate(10,6)" x="286.92307692307696" y="103.93939393939394" fill="rgba(127, 127, 127, .8)">769</text>
-                                <text transform="translate(10,6)" x="321.53846153846155" y="69.09090909090908" fill="rgba(127, 127, 127, .8)">792</text>
-                                <text transform="translate(10,6)" x="356.1538461538462" y="44.848484848484844" fill="rgba(127, 127, 127, .8)">808</text>
-                                <text transform="translate(10,6)" x="390.7692307692308" y="31.21212121212121" fill="rgba(127, 127, 127, .8)">817</text>
-                                <text transform="translate(10,6)" x="425.3846153846154" y="10" fill="rgba(127, 127, 127, .8)">831</text>
-                                <text transform="translate(10,6)" x="460" y="10" fill="rgba(127, 127, 127, .8)">831</text>
+                                <text transform="translate(10,6)" x="44.61538461538462" y="252.93785310734464" fill="rgba(127, 127, 127, .8)">671</text>
+                                <text transform="translate(10,6)" x="79.23076923076924" y="231.75141242937855" fill="rgba(127, 127, 127, .8)">686</text>
+                                <text transform="translate(10,6)" x="113.84615384615385" y="219.0395480225989" fill="rgba(127, 127, 127, .8)">695</text>
+                                <text transform="translate(10,6)" x="148.46153846153848" y="209.15254237288133" fill="rgba(127, 127, 127, .8)">702</text>
+                                <text transform="translate(10,6)" x="183.0769230769231" y="202.090395480226" fill="rgba(127, 127, 127, .8)">707</text>
+                                <text transform="translate(10,6)" x="217.6923076923077" y="173.84180790960448" fill="rgba(127, 127, 127, .8)">727</text>
+                                <text transform="translate(10,6)" x="252.3076923076923" y="158.3050847457627" fill="rgba(127, 127, 127, .8)">738</text>
+                                <text transform="translate(10,6)" x="286.92307692307696" y="114.51977401129945" fill="rgba(127, 127, 127, .8)">769</text>
+                                <text transform="translate(10,6)" x="321.53846153846155" y="82.03389830508475" fill="rgba(127, 127, 127, .8)">792</text>
+                                <text transform="translate(10,6)" x="356.1538461538462" y="59.43502824858756" fill="rgba(127, 127, 127, .8)">808</text>
+                                <text transform="translate(10,6)" x="390.7692307692308" y="46.7231638418079" fill="rgba(127, 127, 127, .8)">817</text>
+                                <text transform="translate(10,6)" x="425.3846153846154" y="26.949152542372893" fill="rgba(127, 127, 127, .8)">831</text>
+                                <text transform="translate(10,6)" x="460" y="10" fill="rgba(127, 127, 127, .8)">843</text>
                             </g>
                         </svg>
                     </section>
@@ -238,8 +242,8 @@
                                     <text fill="rgba(127, 127, 127, .8)" x="0" dy="-4">0</text>
                                 </g>
                             </g>
-                            <path transform="translate(10,10)" d="M10,227.742L44.615,219.677L79.231,139.032L113.846,187.419L148.462,203.548L183.077,219.677L217.692,98.71L252.308,171.29L286.923,10L321.538,74.516L356.154,130.968L390.769,187.419L425.385,147.097L460,260" fill="transparent" stroke="#87ceeb" stroke-width="2"/>
-                            <path transform="translate(10,10)" d="M10,260L44.615,260L79.231,260L113.846,260L148.462,260L183.077,260L217.692,260L252.308,260L286.923,260L321.538,260L356.154,260L390.769,260L425.385,260L460,260L460,260L425.385,147.097L390.769,187.419L356.154,130.968L321.538,74.516L286.923,10L252.308,171.29L217.692,98.71L183.077,219.677L148.462,203.548L113.846,187.419L79.231,139.032L44.615,219.677L10,227.742Z" fill="rgba(88, 166, 255, .1)"/>
+                            <path transform="translate(10,10)" d="M10,227.742L44.615,219.677L79.231,139.032L113.846,187.419L148.462,203.548L183.077,219.677L217.692,98.71L252.308,171.29L286.923,10L321.538,74.516L356.154,130.968L390.769,187.419L425.385,147.097L460,163.226" fill="transparent" stroke="#87ceeb" stroke-width="2"/>
+                            <path transform="translate(10,10)" d="M10,260L44.615,260L79.231,260L113.846,260L148.462,260L183.077,260L217.692,260L252.308,260L286.923,260L321.538,260L356.154,260L390.769,260L425.385,260L460,260L460,163.226L425.385,147.097L390.769,187.419L356.154,130.968L321.538,74.516L286.923,10L252.308,171.29L217.692,98.71L183.077,219.677L148.462,203.548L113.846,187.419L79.231,139.032L44.615,219.677L10,227.742Z" fill="rgba(88, 166, 255, .1)"/>
                             <g>
                                 <circle transform="translate(10,10)" cx="10" cy="227.74193548387095" r="2" fill="#106cbc"/>
                                 <circle transform="translate(10,10)" cx="44.61538461538462" cy="219.67741935483872" r="2" fill="#106cbc"/>
@@ -254,7 +258,7 @@
                                 <circle transform="translate(10,10)" cx="356.1538461538462" cy="130.96774193548387" r="2" fill="#106cbc"/>
                                 <circle transform="translate(10,10)" cx="390.7692307692308" cy="187.4193548387097" r="2" fill="#106cbc"/>
                                 <circle transform="translate(10,10)" cx="425.3846153846154" cy="147.09677419354836" r="2" fill="#106cbc"/>
-                                <circle transform="translate(10,10)" cx="460" cy="260" r="2" fill="#106cbc"/>
+                                <circle transform="translate(10,10)" cx="460" cy="163.2258064516129" r="2" fill="#106cbc"/>
                             </g>
                             <g fill="currentColor" text-anchor="middle" font-family="sans-serif" font-size="10" stroke="rgba(88, 166, 255, .05)" stroke-linejoin="round" stroke-width="4" paint-order="stroke fill">
                                 <text transform="translate(10,6)" x="10" y="227.74193548387095" fill="rgba(127, 127, 127, .8)">+4</text>
@@ -270,7 +274,7 @@
                                 <text transform="translate(10,6)" x="356.1538461538462" y="130.96774193548387" fill="rgba(127, 127, 127, .8)">+16</text>
                                 <text transform="translate(10,6)" x="390.7692307692308" y="187.4193548387097" fill="rgba(127, 127, 127, .8)">+9</text>
                                 <text transform="translate(10,6)" x="425.3846153846154" y="147.09677419354836" fill="rgba(127, 127, 127, .8)">+14</text>
-                                <text transform="translate(10,6)" x="460" y="260" fill="rgba(127, 127, 127, .8)">0</text>
+                                <text transform="translate(10,6)" x="460" y="163.2258064516129" fill="rgba(127, 127, 127, .8)">+12</text>
                             </g>
                         </svg>
                     </section>
