@@ -32,11 +32,13 @@
 
 
 
-## Projects coming soon☘️
+## AI Dev Projects coming soon☘️
 
 - ⭐️  **[Model Radar](https://www.modelradar.dev)** - Discover, evaluate & track the latest AI coding models, tools and more.
 
-- 📟 **[OkTTY](#)** - Next-generation developer terminal designed for AI-driven coding.
+- 📟 **[nexTTY](#)** - Next-generation developer terminal designed for AI-driven coding.
+
+ ## Other Projects coming soon
 
 - 💊 **[Pylz](#)** - Beautifully designed medication reminder IOS App with a focus on clear UI and accessibility, helping people with memory or cognitive difficulties stay on track.
 
