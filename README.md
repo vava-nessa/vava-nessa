@@ -1,4 +1,4 @@
-# Hi, I'm Vava 👋🏻
+# Hi, I'm Vanessa 👋🏻
 
 📍 Paris, France | 🦾 AI Orchestra Conductor
 
