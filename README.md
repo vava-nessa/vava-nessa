@@ -37,6 +37,8 @@
 - ⭐️  **[Model Radar](https://www.modelradar.dev)** - Discover, evaluate & track the latest AI coding models, tools and more.
 - 📟 **[nexTTY](#)** - Next-generation developer terminal designed for AI-driven coding.
 - ✅ **[kandown](https://github.com/vava-nessa/kandown)** - A file-based Kanban engine backed by plain markdown. Zero backend, zero database, AI-agent friendly.
+- 🧠 **AI Snitch** Coming soon
+- ⏳ **Times Flies" Coming soon
 
 
 
