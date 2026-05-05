@@ -30,16 +30,6 @@ jobs:
           plugin_languages_limit: 4
           user: ${{ github.repository_owner }}
 
-      - name: "🧑‍🤝‍🧑 People - Followers"
-        if: ${{ success() || failure() }}
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.plugin.people.followers.svg
-          token: ${{ secrets.GHKEY }}
-          base: ""
-          plugin_people: yes
-          plugin_people_types: followers
-          user: ${{ github.repository_owner }}
 
       - name: "📆 Commit calendar - Current year"
         if: ${{ success() || failure() }}
@@ -71,3 +61,17 @@ jobs:
           plugin_stars: yes
           plugin_stars_limit: 3
           user: ${{ github.repository_owner }}
+
+      - name: "🕹️ Steam - Recently played games"
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.steam.svg
+          token: ${{ secrets.GHKEY }}
+          base: ""
+          plugin_steam: yes
+          plugin_steam_token: ${{ secrets.STEAM_API_KEY }}
+          plugin_steam_user: "76561197997208342"
+          plugin_steam_sections: recently-played
+          user: ${{ github.repository_owner }}
+
