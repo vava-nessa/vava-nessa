@@ -52,3 +52,7 @@
 ## Stargazers (thanks!!)  😎
 
 <img src="metrics.plugin.stargazers.svg" style="width:100%;" alt="Stargazers chart" />
+
+<p align="center">
+  <img src="look.webp" alt="Look" width="300" />
+</p>
