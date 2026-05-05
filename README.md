@@ -65,7 +65,7 @@ I mostly use Opencode with Minimax, GLM, and Deepseek, Codex and Claude Code. Ex
 <p align="center">
   <img src="look.webp" alt="Look" width="30%" />
   &nbsp;&nbsp;
-  <img src="metrics.plugin.steam.svg" alt="Steam - Recently Played" width="65%" />
+  <a href="https://steamcommunity.com/id/vavanesssa/"><img src="metrics.plugin.steam.svg" alt="Steam - Recently Played" width="65%" /></a>
 </p>
 
 📦 [npm](https://www.npmjs.com/~vava-nessa) &nbsp;·&nbsp; 🦄 [GitHub](https://github.com/vava-nessa)
