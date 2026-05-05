@@ -18,7 +18,7 @@ Lately, I'm working a lot with AI Agents and published an open-source TUI called
 
 ---
 
-## 🛠️ Things I've Built
+## 🛠️ Open Source Projects
 
 | Project                                                                    | What                                                                                                                  |
 | -------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
@@ -28,7 +28,7 @@ Lately, I'm working a lot with AI Agents and published an open-source TUI called
 
 ---
 
-## 🚀 Things I'm Building, coming soon !
+## 🚀 Upcoming projects, work in progress
 
 | Project                                                              | Description                                                                                                               |
 | -------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
