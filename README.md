@@ -66,7 +66,7 @@ I mostly use Opencode with Minimax, GLM, and Deepseek, Codex and Claude Code. Ex
   <img align="left" src="look.webp" alt="Look" width="30%" />
   <a href="https://steamcommunity.com/id/vavanesssa/"><img src="metrics.plugin.steam.svg" alt="Steam - Recently Played" width="65%" /></a>
   <br/>
-  <a href="https://github.com/kittinan/spotify-github-profile"><img src="https://spotify-github-profile.kittinanx.com/api/view?uid=1112739834&cover_image=true&theme=spotify-embed&show_offline=false&background_color=121212&interchange=false&profanity=false&bar_color=53b14f&bar_color_cover=true&mode=light" alt="spotify-github-profile" width="65%" /></a>
+  <a href="https://www.last.fm/user/vavanesssa"><img src="metrics.plugin.music.svg" alt="Last.fm - Top Artists" width="65%" /></a>
   <br clear="both" />
 </div>
 
