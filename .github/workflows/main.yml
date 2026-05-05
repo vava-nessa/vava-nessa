@@ -228,33 +228,7 @@ jobs:
           plugin_stars_limit: 3
           user: ${{ github.repository_owner }}
 
-      - name: "📜 Repository licenses - Licenses and permissions"
-        if: ${{ success() || failure() }}
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.plugin.licenses.svg
-          token: ${{ secrets.GHKEY }}
-          base: ""
-          template: repository
-          repo: ${{ github.event.repository.name }}
-          plugin_licenses: yes
-          plugin_licenses_setup: "bash -c '[[ -f package.json ]] && npm ci || true'"
-          user: ${{ github.repository_owner }}
 
-      - name: "📜 Repository licenses - Licenses with open-source ratio graphs"
-        if: ${{ success() || failure() }}
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.plugin.licenses.ratio.svg
-          token: ${{ secrets.GHKEY }}
-          base: ""
-          template: repository
-          repo: ${{ github.event.repository.name }}
-          plugin_licenses: yes
-          plugin_licenses_setup: "bash -c '[[ -f package.json ]] && npm ci || true'"
-          plugin_licenses_legal: no
-          plugin_licenses_ratio: yes
-          user: ${{ github.repository_owner }}
 
       - name: "💡 Coding habits and activity - Mildly interesting facts"
         if: ${{ success() || failure() }}
@@ -282,32 +256,7 @@ jobs:
           config_timezone: Europe/Paris
           user: ${{ github.repository_owner }}
 
-      - name: "🏅 Repository contributors - Contributors with contributions count"
-        if: ${{ success() || failure() }}
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.plugin.contributors.contributions.svg
-          token: ${{ secrets.GHKEY }}
-          base: ""
-          template: repository
-          repo: ${{ github.event.repository.name }}
-          plugin_contributors: yes
-          plugin_contributors_contributions: yes
-          user: ${{ github.repository_owner }}
 
-      - name: "🏅 Repository contributors - Contributors by categories"
-        if: ${{ success() || failure() }}
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.plugin.contributors.categories.svg
-          token: ${{ secrets.GHKEY }}
-          base: ""
-          template: repository
-          repo: ${{ github.event.repository.name }}
-          plugin_contributors: yes
-          plugin_contributors_sections: categories
-          plugin_contributors_categories: '{"🧩 Plugins / 🖼️ templates":["source/plugins/**","source/templates/**"],"📚 Documentation":["README.md","**/README.md","**/metadata.yml"],"💻 Code (other)":["source/**","Dockerfile"]}'
-          user: ${{ github.repository_owner }}
 
       - name: "🎟️ Follow-up of issues and pull requests - Opened on user's repositories"
         if: ${{ success() || failure() }}
@@ -364,18 +313,7 @@ jobs:
           plugin_people_types: followers
           user: ${{ github.repository_owner }}
 
-      - name: "🧑‍🤝‍🧑 People - Contributors and sponsors"
-        if: ${{ success() || failure() }}
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.plugin.people.repository.svg
-          token: ${{ secrets.GHKEY }}
-          base: ""
-          template: repository
-          repo: ${{ github.event.repository.name }}
-          plugin_people: yes
-          plugin_people_types: contributors, stargazers, watchers, sponsors
-          user: ${{ github.repository_owner }}
+
 
       - name: "📓 Featured repositories - Featured repositories"
         if: ${{ success() || failure() }}
@@ -538,17 +476,7 @@ jobs:
           plugin_gists: yes
           user: ${{ github.repository_owner }}
 
-      - name: "🙋 Introduction - Repository introduction"
-        if: ${{ success() || failure() }}
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.plugin.introduction.repository.svg
-          token: ${{ secrets.GHKEY }}
-          template: repository
-          repo: ${{ github.event.repository.name }}
-          base: header
-          plugin_introduction: yes
-          user: ${{ github.repository_owner }}
+
 
       - name: "🗨️ Stack Overflow - Top answers from stackoverflow"
         if: ${{ success() || failure() }}
