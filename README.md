@@ -20,20 +20,18 @@ Lately, I'm working a lot with AI Agents and published an open-source TUI called
 
 ## 🛠️ Open Source Projects
 
-| | |
-| **[free-coding-models](https://github.com/vava-nessa/free-coding-models)** 📊 | TUI tool to find, benchmark & install free coding LLMs · [npm](https://www.npmjs.com/package/free-coding-models)     |
-| **[kandown](https://github.com/vava-nessa/kandown)** ✅                     | File based Kanban engine in plain markdown · zero backend, AI agent friendly · [npm](https://www.npmjs.com/package/kandown) |
-| **[AI Snitch](https://github.com/vava-nessa/AISnitch)** 🧠                 | Cross platform universal AI CLI activity bridge · [npm](https://www.npmjs.com/package/aisnitch)                       |
+- **[free-coding-models](https://github.com/vava-nessa/free-coding-models)** 📊 — TUI tool to find, benchmark & install free coding LLMs (1700+ Github Stars ⭐️) · [npm](https://www.npmjs.com/package/free-coding-models)
+- **[kandown](https://github.com/vava-nessa/kandown)** ✅ — File based Kanban engine in plain markdown · zero backend, AI agent friendly · [npm](https://www.npmjs.com/package/kandown)
+- **[AI Snitch](https://github.com/vava-nessa/AISnitch)** 🧠 — Cross platform universal AI CLI activity bridge · [npm](https://www.npmjs.com/package/aisnitch)
 
 ---
 
 ## 🚀 Upcoming projects, work in progress
 
-| | |
-| **[Out of Burn](#)** 🔥                                              | AI assisted mental health tracker. Guided routines, mood tracking & supportive tools to help people recover from burnout  |
-| **[Pylz](#)** 💊                                                     | Beautifully designed iOS medication reminder. Clear UI & accessibility first, for memory or cognitive difficulties        |
-| **[NexTTY](#)** 📟                                                   | Next generation developer terminal designed for AI driven coding. macOS native, agent orchestrator inside                 |
-| **[ModelRadar](https://www.modelradar.dev)** ⭐️                     | Discover, evaluate & track the latest AI coding models, tools and more · [repo](https://github.com/vava-nessa/modelradar) |
+- **[Out of Burn](#)** 🔥 — AI assisted mental health tracker. Guided routines, mood tracking & supportive tools to help people recover from burnout
+- **[Pylz](#)** 💊 — Beautifully designed iOS medication reminder. Clear UI & accessibility first, for memory or cognitive difficulties
+- **[NexTTY](#)** 📟 — Next generation developer terminal designed for AI agents and AI driven coding. macOS native, agent orchestrator inside
+- **[ModelRadar](https://www.modelradar.dev)** ⭐️ — Discover, evaluate & track the latest AI coding models, tools and more · [repo](https://github.com/vava-nessa/modelradar)
 
 ---
 
@@ -43,7 +41,7 @@ I mostly use Opencode with Minimax, GLM, and Deepseek, Codex and Claude Code. Ex
 
 ## 🧰 Tech I love
 
-[Astro](https://astro.build) · [Next.js](https://nextjs.org) · [React](https://react.dev) · [Tanstack Start](https://tanstack.com/start) · [Vite](https://vitejs.dev) · [TypeScript](https://www.typescriptlang.org) · [Tailwind CSS](https://tailwindcss.com) · [shadcn/ui](https://ui.shadcn.com) · [Swift](https://swift.org) · [SwiftUI](https://developer.apple.com/swiftui/) · [React Native](https://reactnative.dev) · [Node.js](https://nodejs.org) · [PostgreSQL](https://www.postgresql.org) · [Prisma](https://www.prisma.io) · [Supabase](https://supabase.com) · [Vercel](https://vercel.com) · [PostHog](https://posthog.com) · [Claude](https://claude.ai) · [Codex](https://openai.com/codex) · [Opencode](https://opencode.ai) · [Ghostty](https://ghostty.org) · [Alacritty](https://alacritty.org) · [Zed](https://zed.dev) · [Obsidian](https://obsidian.md) · [Gemini CLI](https://github.com/google-gemini/gemini-cli)
+[JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) · [TypeScript](https://www.typescriptlang.org) · [Python](https://www.python.org) · [Astro](https://astro.build) · [Next.js](https://nextjs.org) · [React](https://react.dev) · [Tanstack Start](https://tanstack.com/start) · [Vite](https://vitejs.dev) · [Tailwind CSS](https://tailwindcss.com) · [shadcn/ui](https://ui.shadcn.com) · [Swift](https://swift.org) · [SwiftUI](https://developer.apple.com/swiftui/) · [React Native](https://reactnative.dev) · [Node.js](https://nodejs.org) · [PostgreSQL](https://www.postgresql.org) · [Prisma](https://www.prisma.io) · [Supabase](https://supabase.com) · [Vercel](https://vercel.com) · [PostHog](https://posthog.com) · [Claude](https://claude.ai) · [Codex](https://openai.com/codex) · [Opencode](https://opencode.ai) · [Ghostty](https://ghostty.org) · [Alacritty](https://alacritty.org) · [Zed](https://zed.dev) · [Obsidian](https://obsidian.md) · [Gemini CLI](https://github.com/google-gemini/gemini-cli)
 
 
 ---
