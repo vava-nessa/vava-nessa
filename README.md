@@ -67,10 +67,7 @@ I mostly use Opencode with Minimax, GLM, and Deepseek, Codex and Claude Code. Ex
 
 ---
 
-<img src="metrics.plugin.languages.svg" style="width:100%;" alt="Languages" />
-
-<img src="metrics.plugin.calendar.svg" style="width:100%;" alt="Calendar" />
-
-<img src="metrics.plugin.stars.svg" style="width:100%;" alt="Stars" />
+<img src="metrics.plugin.languages.svg" style="width:49%; display:inline-block;" alt="Languages" />
+<img src="metrics.plugin.calendar.svg" style="width:49%; display:inline-block;" alt="Calendar" />
 
 <img src="metrics.plugin.steam.svg" style="width:100%;" alt="Steam - Recently Played" />
