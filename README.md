@@ -1,6 +1,6 @@
 # Hi, I'm Vanessa 👋🏻
 
-##### App Builder, Full Stack Engineer & AI enthusiast
+### App Builder, Full Stack Engineer & AI enthusiast
 
 ---
 
