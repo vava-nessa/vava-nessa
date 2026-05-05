@@ -14,7 +14,7 @@ Lately, I'm working a lot with AI Agents and published an open-source TUI called
 
  I dev daily on a M4 Pro, with an Arch Linux machine as my secondary rig for OpenClaw / Hermes.
 
-🎶 When I'm not coding, I'm making electronic music (Ableton + way too many VSTs), reading AI research papers, or cuddling my cats.
+🎶 When I'm not coding, I'm making electronic music (Ableton + way too many VSTs), reading AI research papers, or cuddling my cats. I'm a geography nerd too 🌍
 
 ---
 
