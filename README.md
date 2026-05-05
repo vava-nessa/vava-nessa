@@ -1,57 +1,70 @@
 # Hi, I'm Vanessa 👋🏻
 
-📍 Paris, France | 🦾 AI Orchestra Conductor
+##### App Builder, Full Stack Engineer & AI enthusiast
 
-> Full-Stack Developer : Web & Mobile, AI-driven development (JS/TS, Swift, React, NextJS)
+---
 
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![Codex](https://img.shields.io/badge/-Codex-121212?style=flat-square&logo=openai&logoColor=white)
-![Claude](https://img.shields.io/badge/-Claude-000000?style=flat-square&logo=anthropic&logoColor=white)
-![CLI](https://img.shields.io/badge/-CLI-000000?style=flat-square&logo=gnu-bash&logoColor=white)
-![macOS](https://img.shields.io/badge/-macOS-000000?style=flat-square&logo=apple&logoColor=white)
-![Swift](https://img.shields.io/badge/-Swift-FA7343?style=flat-square&logo=swift&logoColor=white)
-![SwiftUI](https://img.shields.io/badge/-SwiftUI-0062D3?style=flat-square&logo=swift&logoColor=white)
-![Web](https://img.shields.io/badge/-Web-4285F4?style=flat-square&logo=google-chrome&logoColor=white)
+💅🏽 I've been building web & mobile experiences for **almost 20 years**. I love turning ideas into real, working things. Slick UIs, complex backends, and tricky problems solved with code. 
 
-💅🏽 I'm building web & mobile experiences since 2006. Over the years, I've had the chance to work with major companies as well as startups.
+Based in Paris France 🇫🇷  I've worked with major big companies and startups across my career, in **London**, **New York**, **Orlando** and **Stockholm**.  
 
-💡 I love turning ideas into real, working things. Whether it's crafting a slick UI, architecting a complex backend, or solving tricky problems with code. These days, I'm especially excited about Next.js, React Native, and exploring how AI is reshaping the way we build software.
+Some of the big companies I worked for as a freelancer : **Airbus** · **L'Oréal** · **Total** · **Orange** · **Canal+** · **Renault** · **AXA** · **Allianz** · **Carrefour** · **Dell** · **Sanofi** · **Royal Canin** · **Epson** · **SNCF** · **TF1** · **ING Direct** · **Caisse des Dépôts** · **Kogama** and more...
 
-🎶 When I'm not coding, I'm probably making electronic music with Ableton Live and way too many VSTs, reading AI research papers, or cuddling my cats.
+Lately, I'm working a lot with AI Agents and published an open-source TUI called  [free-coding-models](https://github.com/vava-nessa/free-coding-models) that got 1700 GitHub Stars ⭐
 
-🪐 Currently orchestrating agents, code and chaos.
+ I dev daily on a M4 Pro, with an Arch Linux machine as my secondary rig for OpenClaw / Hermes.
 
+🎶 When I'm not coding, I'm making electronic music (Ableton + way too many VSTs), reading AI research papers, or cuddling my cats.
 
-## Current Projects 🌸
+---
 
-- 📊 **[Free Coding Models](https://www.npmjs.com/package/free-coding-models)** - Free AI model monitoring TUI Tool.
+## 🛠️ Things I've Built
 
-  ![NPM](https://img.shields.io/npm/dm/free-coding-models)
+| Project                   | What                                                                         | Links                                                                                                                |
+| ------------------------- | ---------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| 📊 **free-coding-models** | TUI tool to find, benchmark & install free coding LLMs                       | [GitHub](https://github.com/vava-nessa/free-coding-models) · [npm](https://www.npmjs.com/package/free-coding-models) |
+| ✅ **kandown**             | File based Kanban engine in plain markdown · zero backend, AI agent friendly | [GitHub](https://github.com/vava-nessa/kandown) · [npm](https://www.npmjs.com/package/kandown)                       |
+| 🧠 **AI Snitch**          | Cross platform universal AI CLI activity bridge                              | [GitHub](https://github.com/vava-nessa/AISnitch)                                                                     |
 
+---
 
+## 🚀 Things I'm Building, coming soon !
 
-## AI Dev Projects coming soon☘️
+| 🔥 **[Out of Burn](#)**                          | AI assisted mental health tracker. Guided routines, mood tracking & supportive tools to help people recover from burnout  |
+| ------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------- |
+| 💊 **[Pylz](#)**                                 | Beautifully designed iOS medication reminder. Clear UI & accessibility first, for memory or cognitive difficulties        |
+| 📟 **[NexTTY](#)**                               | Next generation developer terminal designed for AI driven coding. macOS native, agent orchestrator inside                 |
+| ⭐️ **[Model Radar](https://www.modelradar.dev)** | Discover, evaluate & track the latest AI coding models, tools and more · [repo](https://github.com/vava-nessa/modelradar) |
 
-- ⭐️  **[Model Radar](https://www.modelradar.dev)** - Discover, evaluate & track the latest AI coding models, tools and more.
-- 📟 **[nexTTY](#)** - Next-generation developer terminal designed for AI-driven coding.
-- ✅ **[kandown](https://github.com/vava-nessa/kandown)** - A file-based Kanban engine backed by plain markdown. Zero backend, zero database, AI-agent friendly.
-- 🧠 **AI Snitch** Coming soon
-- ⏳ **Times Flies" Coming soon
+---
 
+I mostly use Opencode with Minimax, GLM, and Deepseek, Codex and Claude Code. Experimenting with multi agent orchestration to ship fast.
 
+---
 
- ## Other Projects coming soon
+## 🧰 Tech I love
 
-- 💊 **[Pylz](#)** - Beautifully designed medication reminder IOS App with a focus on clear UI and accessibility, helping people with memory or cognitive difficulties stay on track.
-
-- 🔥 **[Out Of Burn](#)** - An AI-assisted mental health tracker helping people recover from burnout with guided routines, mood tracking, and supportive tools.
+[Astro](https://astro.build) · [Next.js](https://nextjs.org) · [React](https://react.dev) · [Tanstack Start](https://tanstack.com/start) · [Vite](https://vitejs.dev) · [TypeScript](https://www.typescriptlang.org) · [Tailwind CSS](https://tailwindcss.com) · [shadcn/ui](https://ui.shadcn.com) · [Swift](https://swift.org) · [SwiftUI](https://developer.apple.com/swiftui/) · [React Native](https://reactnative.dev) · [Node.js](https://nodejs.org) · [PostgreSQL](https://www.postgresql.org) · [Prisma](https://www.prisma.io) · [Supabase](https://supabase.com) · [Vercel](https://vercel.com) · [PostHog](https://posthog.com) · [Claude](https://claude.ai) · [Codex](https://openai.com/codex) · [Opencode](https://opencode.ai) · [Ghostty](https://ghostty.org) · [Alacritty](https://alacritty.org) · [Zed](https://zed.dev) · [Obsidian](https://obsidian.md) · [Gemini CLI](https://github.com/google-gemini/gemini-cli)
 
 
-## Stargazers (thanks!!)  😎
+---
+
+## 📊 GitHub Activity
+
+<p align="center">
+  <img src="metrics.plugin.activity.svg" alt="Activity" width="49%" />
+  <img src="metrics.plugin.code.svg" alt="Code" width="49%" />
+</p>
+
+### 🌸 Stargazers · thank you !!  😎
 
 <img src="metrics.plugin.stargazers.svg" style="width:100%;" alt="Stargazers chart" />
+
+---
+
+## 🌐 Find me online
+
+🔗 [vavanessa.dev](https://vavanessa.dev) &nbsp;·&nbsp; 📄 [vanessadepraute.dev](https://vanessadepraute.dev) &nbsp;·&nbsp; 💼 [LinkedIn](https://www.linkedin.com/in/vanessa-depraute-310b801ba/) &nbsp;·&nbsp; 🐦 [@vavanessadev](https://x.com/vavanessadev) &nbsp;·&nbsp; 📦 [npm](https://www.npmjs.com/~vavanessa) &nbsp;·&nbsp; 🦄 [GitHub](https://github.com/vava-nessa)
 
 <p align="center">
   <img src="look.webp" alt="Look" width="300" />
