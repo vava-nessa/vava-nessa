@@ -55,7 +55,7 @@ I mostly use Opencode with Minimax, GLM, and Deepseek, Codex and Claude Code. Ex
 
 ---
 
-## 🔗 [vavanessa.dev](https://vavanessa.dev) &nbsp;·&nbsp; 📄 [vanessadepraute.dev](https://vanessadepraute.dev) &nbsp;·&nbsp; 💼 [LinkedIn](https://www.linkedin.com/in/vanessa-depraute-310b801ba/) &nbsp;·&nbsp; 🐦 [@vavanessadev](https://x.com/vavanessadev)
+### 🔗 [vavanessa.dev](https://vavanessa.dev) &nbsp;·&nbsp; 📄 [vanessadepraute.dev](https://vanessadepraute.dev) &nbsp;·&nbsp; 💼 [LinkedIn](https://www.linkedin.com/in/vanessa-depraute-310b801ba/) &nbsp;·&nbsp; 🐦 [@vavanessadev](https://x.com/vavanessadev)
 
 ---
 

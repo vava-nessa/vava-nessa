@@ -51,16 +51,6 @@ jobs:
           plugin_stargazers: yes
           user: ${{ github.repository_owner }}
 
-      - name: "🌟 Recently starred repositories"
-        if: ${{ success() || failure() }}
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.plugin.stars.svg
-          token: ${{ secrets.GHKEY }}
-          base: ""
-          plugin_stars: yes
-          plugin_stars_limit: 3
-          user: ${{ github.repository_owner }}
 
       - name: "🕹️ Steam - Recently played games"
         if: ${{ success() || failure() }}
