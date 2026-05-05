@@ -46,22 +46,15 @@ I mostly use Opencode with Minimax, GLM, and Deepseek, Codex and Claude Code. Ex
 
 ---
 
-## 📊 GitHub Activity
-
-<p align="center">
-  <img src="metrics.plugin.activity.svg" alt="Activity" width="49%" />
-  <img src="metrics.plugin.code.svg" alt="Code" width="49%" />
-</p>
-
 ### 🌸 Stargazers · thank you !!  😎
 
 <img src="metrics.plugin.stargazers.svg" style="width:100%;" alt="Stargazers chart" />
 
 ---
 
-## 🌐 Find me online
+## 🔗 [vavanessa.dev](https://vavanessa.dev) &nbsp;·&nbsp; 📄 [vanessadepraute.dev](https://vanessadepraute.dev) &nbsp;·&nbsp; 💼 [LinkedIn](https://www.linkedin.com/in/vanessa-depraute-310b801ba/) &nbsp;·&nbsp; 🐦 [@vavanessadev](https://x.com/vavanessadev) &nbsp;·&nbsp; 📦 [npm](https://www.npmjs.com/~vava-nessa) &nbsp;·&nbsp; 🦄 [GitHub](https://github.com/vava-nessa)
 
-🔗 [vavanessa.dev](https://vavanessa.dev) &nbsp;·&nbsp; 📄 [vanessadepraute.dev](https://vanessadepraute.dev) &nbsp;·&nbsp; 💼 [LinkedIn](https://www.linkedin.com/in/vanessa-depraute-310b801ba/) &nbsp;·&nbsp; 🐦 [@vavanessadev](https://x.com/vavanessadev) &nbsp;·&nbsp; 📦 [npm](https://www.npmjs.com/~vava-nessa) &nbsp;·&nbsp; 🦄 [GitHub](https://github.com/vava-nessa)
+---
 
 <p align="center">
   <img src="look.webp" alt="Look" width="300" />
