@@ -17,8 +17,11 @@ Lately, I'm working a lot with AI Agents and published an open-source TUI called
 🎶 When I'm not coding, I'm making electronic music (Ableton + way too many VSTs), reading AI research papers, or cuddling my cats. I'm a geography nerd too 🌍
 
 ---
-
+<p align="center">
   <img src="metrics.plugin.languages.svg" width="48%" alt="Languages" />
+  <img src="metrics.plugin.calendar.svg" width="48%" alt="Calendar" />
+</p>
+
 
 ---
 
@@ -69,7 +72,3 @@ I mostly use Opencode with Minimax, GLM, and Deepseek, Codex and Claude Code. Ex
 
 ---
 
-<p align="center">
-
-  <img src="metrics.plugin.calendar.svg" width="48%" alt="Calendar" />
-</p>
