@@ -60,14 +60,16 @@ I mostly use Opencode with Minimax, GLM, and Deepseek, Codex and Claude Code. Ex
 ---
 
 <p align="center">
-  <img src="look.webp" alt="Look" width="300" />
+  <img src="look.webp" alt="Look" width="30%" />
+  &nbsp;&nbsp;
+  <img src="metrics.plugin.steam.svg" alt="Steam - Recently Played" width="65%" />
 </p>
 
 📦 [npm](https://www.npmjs.com/~vava-nessa) &nbsp;·&nbsp; 🦄 [GitHub](https://github.com/vava-nessa)
 
 ---
 
-<img src="metrics.plugin.languages.svg" style="width:49%; display:inline-block;" alt="Languages" />
-<img src="metrics.plugin.calendar.svg" style="width:49%; display:inline-block;" alt="Calendar" />
-
-<img src="metrics.plugin.steam.svg" style="width:100%;" alt="Steam - Recently Played" />
+<p align="center">
+  <img src="metrics.plugin.languages.svg" width="48%" alt="Languages" />
+  <img src="metrics.plugin.calendar.svg" width="48%" alt="Calendar" />
+</p>
