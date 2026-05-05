@@ -18,6 +18,14 @@ Lately, I'm working a lot with AI Agents and published an open-source TUI called
 
 ---
 
+<img src="metrics.plugin.languages.svg" style="width:100%;" alt="Languages" />
+
+<img src="metrics.plugin.people.followers.svg" style="width:100%;" alt="Followers" />
+
+<img src="metrics.plugin.calendar.svg" style="width:100%;" alt="Calendar" />
+
+---
+
 ## 🛠️ Open Source Projects
 
 - **[free-coding-models](https://github.com/vava-nessa/free-coding-models)** 📊 · TUI tool to find, benchmark & install free coding LLMs (1700+ Github Stars ⭐️) · [npm](https://www.npmjs.com/package/free-coding-models)
@@ -60,3 +68,7 @@ I mostly use Opencode with Minimax, GLM, and Deepseek, Codex and Claude Code. Ex
 </p>
 
 📦 [npm](https://www.npmjs.com/~vava-nessa) &nbsp;·&nbsp; 🦄 [GitHub](https://github.com/vava-nessa)
+
+---
+
+<img src="metrics.plugin.stars.svg" style="width:100%;" alt="Stars" />
