@@ -20,21 +20,22 @@ Lately, I'm working a lot with AI Agents and published an open-source TUI called
 
 ## 🛠️ Things I've Built
 
-| Project                   | What                                                                         | Links                                                                                                                |
-| ------------------------- | ---------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
-| 📊 **free-coding-models** | TUI tool to find, benchmark & install free coding LLMs                       | [GitHub](https://github.com/vava-nessa/free-coding-models) · [npm](https://www.npmjs.com/package/free-coding-models) |
-| ✅ **kandown**             | File based Kanban engine in plain markdown · zero backend, AI agent friendly | [GitHub](https://github.com/vava-nessa/kandown) · [npm](https://www.npmjs.com/package/kandown)                       |
-| 🧠 **AI Snitch**          | Cross platform universal AI CLI activity bridge                              | [GitHub](https://github.com/vava-nessa/AISnitch)                                                                     |
+| Project                                                                    | What                                                                                                                  |
+| -------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| **[free-coding-models](https://github.com/vava-nessa/free-coding-models)** 📊 | TUI tool to find, benchmark & install free coding LLMs · [npm](https://www.npmjs.com/package/free-coding-models)     |
+| **[kandown](https://github.com/vava-nessa/kandown)** ✅                     | File based Kanban engine in plain markdown · zero backend, AI agent friendly · [npm](https://www.npmjs.com/package/kandown) |
+| **[AI Snitch](https://github.com/vava-nessa/AISnitch)** 🧠                 | Cross platform universal AI CLI activity bridge · [npm](https://www.npmjs.com/package/aisnitch)                       |
 
 ---
 
 ## 🚀 Things I'm Building, coming soon !
 
-| 🔥 **[Out of Burn](#)**                          | AI assisted mental health tracker. Guided routines, mood tracking & supportive tools to help people recover from burnout  |
-| ------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------- |
-| 💊 **[Pylz](#)**                                 | Beautifully designed iOS medication reminder. Clear UI & accessibility first, for memory or cognitive difficulties        |
-| 📟 **[NexTTY](#)**                               | Next generation developer terminal designed for AI driven coding. macOS native, agent orchestrator inside                 |
-| ⭐️ **[Model Radar](https://www.modelradar.dev)** | Discover, evaluate & track the latest AI coding models, tools and more · [repo](https://github.com/vava-nessa/modelradar) |
+| Project                                                              | Description                                                                                                               |
+| -------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| **[Out of Burn](#)** 🔥                                              | AI assisted mental health tracker. Guided routines, mood tracking & supportive tools to help people recover from burnout  |
+| **[Pylz](#)** 💊                                                     | Beautifully designed iOS medication reminder. Clear UI & accessibility first, for memory or cognitive difficulties        |
+| **[NexTTY](#)** 📟                                                   | Next generation developer terminal designed for AI driven coding. macOS native, agent orchestrator inside                 |
+| **[Model Radar](https://www.modelradar.dev)** ⭐️                     | Discover, evaluate & track the latest AI coding models, tools and more · [repo](https://github.com/vava-nessa/modelradar) |
 
 ---
 
