@@ -6,7 +6,9 @@
 
 💅🏽 I've been building web & mobile experiences for **almost 20 years**. I love turning ideas into real, working things. Slick UIs, complex backends, and tricky problems solved with code. 
 
-Based in Paris France 🇫🇷  I've worked with major big companies and startups across my career, in **London**, **New York**, **Orlando** and **Stockholm**.  
+Based in Paris France 🇫🇷  I've worked with major big companies and startups across my career, in **London**, **New York**, **Orlando** and **Stockholm**.
+
+🗣️ English · Français · 中文 (learning)  
 
 Some of the big companies I worked for as a freelancer : **Airbus** · **L'Oréal** · **Total** · **Orange** · **Canal+** · **Renault** · **AXA** · **Allianz** · **Carrefour** · **Dell** · **Sanofi** · **Royal Canin** · **Epson** · **SNCF** · **TF1** · **ING Direct** · **Caisse des Dépôts** · **Kogama** and more...
 
