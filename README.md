@@ -65,8 +65,6 @@ I mostly use Opencode with Minimax, GLM, and Deepseek, Codex and Claude Code. Ex
 <div align="right">
   <img align="left" src="look.webp" alt="Look" width="30%" />
   <a href="https://steamcommunity.com/id/vavanesssa/"><img src="metrics.plugin.steam.svg" alt="Steam - Recently Played" width="65%" /></a>
-  <br/>
-  <a href="https://www.last.fm/user/vavanesssa"><img src="metrics.plugin.music.svg" alt="Last.fm - Top Artists" width="65%" /></a>
   <br clear="both" />
 </div>
 
