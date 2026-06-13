@@ -22,15 +22,15 @@
                     </h2>
                     <div class="medias largeable-flex-wrap">
                         <div class="media largeable-width-half">
-                            <img src="data:image/jpg;base64,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" alt="" />
+                            <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCABAAEADASIAAhEBAxEB/8QAHAAAAQUBAQEAAAAAAAAAAAAABgECAwQFAAcI/8QALhAAAQMDAwMDAwMFAAAAAAAAAQACAwQFEQYSIQcxQRMiUTJSYRQlNENTYnHB/8QAGQEAAgMBAAAAAAAAAAAAAAAABAUAAQID/8QAHREBAAMBAAMBAQAAAAAAAAAAAQACAxEEEiETQ//aAAwDAQACEQMRAD8A+cjuewljgI3cOcfCOIdJ2SriidTaloo6l7BuY4E4KCJHbnkuIfGePZwEjcBrssduP07eCu2tNbHCc6B6z0U9Krq9hNNWQzxtG5jmN4JVGTpte42PJZmVnJOOEWdHL7UzWqpt8jpJHRDc1xPIz4S9V7xUUdrpaekfMyeZ5bI4O7BK7eVv+5iQsyPz7AuPp9eHQ+rFHlxOHK5SdMrrMWF88cXPu3DsqOiLvW091bE6qmljlOMF5PKO9SXyanslbJE9zZNmG8+VWu+9NfVZKZH5wRk0NQUEpF31JQwn7CDlB93paajuO23ztni/uDsVA6Z82XSPdNI45Jec4KiJx3G53wEzxz2ql1gtw9eR7iNvbCdkenlc9zMcLsAxrrQsU9lg70hx0mrRSXKs9TsWDsp+qVc2pqab0/Dlg6PqBTV0u0Zy0KfXEv6ioiyNuEqMivlGixnZTCZennkXilxx7/CKtXz5t23PkoSshDLvSD/JE2qx+35/JWvJqX3EmMFcmA8bQXfCbJ7X8Jwy1wA8pZBsO5yZo2qBAjr0jXhvhK3OOFLIxgKQYA4UV59mW3SbWkg01chPwrGrv5Lcc8Khp52yaUt+FNfZHPmbn4QFgdyHfxlG2ZjracnvuyiXUdUJqANGOEN21jpblC38ravVO+OhkcfCz5NQ2OSZV5kwYaRg/KaCA7nn/aaCAnbQUybPDkEfhFa4OOWuEg/CQ4Zn5PgpkhLgwEtAJ+towAiGO022OGKSou9PKT/SaCHLGmwnyQp8jdM07nMmlcRhwwOF2oBtjhweWOyVsU10tVJS+nH4/KoV92oJRjZndwlb7W3Eh9jmUoadjNRdIng+1hyUXahia+y1TzG4uY3IAWFbbtaaU7YoHiQ9zuV6fUlFUHDgREfa4Eqtixr2Vl9yYENJDeBn/ikhHu495+At2a32WoeX01a2lcecSHOVkVkUcM2yOUSj72cJljsd4wRr0n//2Q==" alt="" />
                             <div class="about">
-                                <div class="name">ROUNDS</div>
+                                <div class="name">Kingdom Come: Deliverance II</div>
                                 <div class="infos">
                                     <div>
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                             <path fill-rule="evenodd" d="M2.5 7.775V2.75a.25.25 0 01.25-.25h5.025a.25.25 0 01.177.073l6.25 6.25a.25.25 0 010 .354l-5.025 5.025a.25.25 0 01-.354 0l-6.25-6.25a.25.25 0 01-.073-.177zm-1.5 0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464 0 .91.184 1.238.513l6.25 6.25a1.75 1.75 0 010 2.474l-5.026 5.026a1.75 1.75 0 01-2.474 0l-6.25-6.25A1.75 1.75 0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"/>
                                         </svg>
-                                        Action, Indie
+                                        Action, Adventure, RPG
                                     </div>
                                 </div>
                                 <div class="infos">
@@ -38,7 +38,7 @@
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                             <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Zm7-3.25v2.992l2.028.812a.75.75 0 0 1-.557 1.392l-2.5-1A.751.751 0 0 1 7 8.25v-3.5a.75.75 0 0 1 1.5 0Z"/>
                                         </svg>
-                                        2 hours played
+                                        26 hours played
                                     </div>
                                 </div>
                                 <div class="infos">
@@ -46,7 +46,7 @@
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                             <path d="M4.75 0a.75.75 0 0 1 .75.75V2h5V.75a.75.75 0 0 1 1.5 0V2h1.25c.966 0 1.75.784 1.75 1.75v10.5A1.75 1.75 0 0 1 13.25 16H2.75A1.75 1.75 0 0 1 1 14.25V3.75C1 2.784 1.784 2 2.75 2H4V.75A.75.75 0 0 1 4.75 0ZM2.5 7.5v6.75c0 .138.112.25.25.25h10.5a.25.25 0 0 0 .25-.25V7.5Zm10.75-4H2.75a.25.25 0 0 0-.25.25V6h11V3.75a.25.25 0 0 0-.25-.25Z"/>
                                         </svg>
-                                        Last played on 12 Jun 2026
+                                        Last played on 13 Jun 2026
                                     </div>
                                 </div>
                                 <div class="achievements">
@@ -55,7 +55,7 @@
                                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                                 <path d="M3.217 6.962A3.75 3.75 0 0 1 0 3.25v-.5C0 1.784.784 1 1.75 1h1.356c.228-.585.796-1 1.462-1h6.864c.647 0 1.227.397 1.462 1h1.356c.966 0 1.75.784 1.75 1.75v.5a3.75 3.75 0 0 1-3.217 3.712 5.014 5.014 0 0 1-2.771 3.117l.144 1.446c.005.05.03.12.114.204.086.087.217.17.373.227.283.103.618.274.89.568.285.31.467.723.467 1.226v.75h1.25a.75.75 0 0 1 0 1.5H2.75a.75.75 0 0 1 0-1.5H4v-.75c0-.503.182-.916.468-1.226.27-.294.606-.465.889-.568.139-.048.266-.126.373-.227.084-.085.109-.153.114-.204l.144-1.446a5.015 5.015 0 0 1-2.77-3.117ZM4.5 1.568V5.5a3.5 3.5 0 1 0 7 0V1.568a.068.068 0 0 0-.068-.068H4.568a.068.068 0 0 0-.068.068Zm2.957 8.902-.12 1.204c-.093.925-.858 1.47-1.467 1.691a.766.766 0 0 0-.3.176c-.037.04-.07.093-.07.21v.75h5v-.75c0-.117-.033-.17-.07-.21a.766.766 0 0 0-.3-.176c-.609-.221-1.374-.766-1.466-1.69l-.12-1.204a5.064 5.064 0 0 1-1.087 0ZM13 2.5v2.872a2.25 2.25 0 0 0 1.5-2.122v-.5a.25.25 0 0 0-.25-.25H13Zm-10 0H1.75a.25.25 0 0 0-.25.25v.5c0 .98.626 1.813 1.5 2.122Z"/>
                                             </svg>
-                                            12 / 24 achievements unlocked
+                                            6 / 83 achievements unlocked
                                         </div>
                                     </div>
                                 </div>
