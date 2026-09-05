@@ -4,38 +4,43 @@
 
 ---
 
-💅🏽 I've been building web & mobile experiences for **almost 20 years**. Slick UIs, complex backends, AI systems, and the tricky problems that come with all three. **TypeScript**, **React**, **Node.js**, **Rust** and **Swift** are my daily tools, and **AI-driven development** is how I work now.
+💅🏽 I've been building web & mobile experiences for **almost 20 years**. I love turning ideas into real, working things. Slick UIs. Complex backends. AI systems. And the tricky problems that come with all three. **NodeJS**, **Rust**, **React**, **Swift** and **TypeScript** are my daily tools, and **AI-driven development** is how I work now.
 
-Based in **Paris, France** 🇫🇷 · self-taught, shipping since 2006 for **50+ enterprise clients**, with stints in **London**, **New York**, **Orlando** and **Stockholm**.
+Based in **Paris, France** 🇫🇷, I've worked with major companies and startups across my career in **London**, **New York**, **Orlando** and **Stockholm**. Since 2006 I've had the chance to work with big companies, building SaaS apps, chats, CRMs, interfaces and a lot more. Some of the companies that hired me as a freelancer during my career: **Airbus** · **L'Oréal** · **Total** · **Orange** · **Canal+** · **Renault** · **AXA** · **Allianz** · **Carrefour** · **Dell** · **Sanofi** · **Royal Canin** · **Epson** · **SNCF** · **TF1** · **ING Direct** · **Caisse des Dépôts** · **Kogama** and more...
 
 🗣️ English · Français · 中文 (learning)  
 
-Some of the companies that hired me as a freelancer: **Airbus** · **L'Oréal** · **Total** · **Orange** · **Canal+** · **Renault** · **AXA** · **Allianz** · **Carrefour** · **Dell** · **Sanofi** · **Royal Canin** · **Epson** · **SNCF** · **TF1** · **ING Direct** · **Caisse des Dépôts** · **Kogama** and more...
+🔨 Right now I'm heads-down on **three builds**: **two healthcare apps** (**React Native** and **Flutter**), and an **AI app for macOS** written in **Swift**, shipping soon.
 
-🤖 Deep into **AI agents**: I built [free-coding-models](https://github.com/vava-nessa/free-coding-models), a TUI to find, benchmark & install free coding LLMs, now at **2.5k+ GitHub Stars** ⭐. I also built [kandown](https://github.com/vava-nessa/kandown), the memory layer for long-running agent loops: every task is a plain Markdown file, readable by you and your agents from a web board, a TUI or the CLI.
+🤖 Lately, I've been working a lot with **AI Agents** and published **[free-coding-models](https://github.com/vava-nessa/free-coding-models)**, a TUI to find, benchmark & install free coding LLMs that got **2.5k+ GitHub Stars** ⭐
 
-🎬 Before the code, I spent **15 years in audiovisual**: director and live streamer, setting up the RTMP servers and running broadcasts for live events, TV and YouTubers. Same instinct as shipping software, except live has no second take.
+I'm also building **[kandown](https://github.com/vava-nessa/kandown)**, a local Kanban for long-running agent work. Every task is a plain Markdown file in your project, readable by you and your agents from a web board, a TUI, or the CLI. It's the missing memory layer for agent loops that run for hours.
 
-🔨 Right now I'm heads-down on **three builds**: two healthcare apps (**React Native** & **Flutter**) and an AI app for macOS in **Swift**, shipping soon.
+I dev daily on **macOS** (**M4 Pro**) and also run ~~Arch Linux~~ **Omarchy Linux** as a local **VPS** for **Hermes** agent, **herdr / moshi** and a bunch of **local models**.
 
-I dev daily on a **M4 Pro**, with **Omarchy Linux** as a local VPS for my **Hermes** agent, **herdr / moshi** and a bunch of **local models**.
+🎬 In parallel with all the code, I spent **15 years** in audiovisual: **director** and **live streamer**, setting up the **RTMP** servers and running the broadcasts for **live events**, **TV** and **YouTubers**. Same instinct as shipping software, except live has no second take.
 
-🎶 When I'm not coding, I'm making electronic music (Ableton + way too many VSTs), reading AI research papers, cuddling my cats and raising 2 teenagers. Geography nerd too 🌍
+🎶 When I'm not coding, I'm making electronic music with Ableton Live and way too many VSTs, reading AI research papers, cuddling **my cats** and raising **2 teenagers**. I'm a geography nerd too. 🌍
 
----
-<p align="center">
-  <img src="metrics.plugin.languages.svg" width="48%" alt="Languages" />
-  <img src="metrics.plugin.calendar.svg" width="48%" alt="Calendar" />
-</p>
-
+Got a project in mind? **[Let's talk!](https://vanessadepraute.dev)**
 
 ---
 
-## 🛠️ Open Source Projects
-
-- **[free-coding-models](https://github.com/vava-nessa/free-coding-models)** 📊 · TUI tool to find, benchmark & install free coding LLMs · 2.5k+ GitHub Stars ⭐️ · [npm](https://www.npmjs.com/package/free-coding-models)
-- **[kandown](https://github.com/vava-nessa/kandown)** ✅ · The memory layer for long-running agent loops: file based Kanban in plain markdown, zero backend, AI agent friendly · [kandown.dev](https://kandown.dev) · [npm](https://www.npmjs.com/package/kandown)
-- **[AI Snitch](https://github.com/vava-nessa/AISnitch)** 🧠 · Cross platform universal AI CLI activity bridge · [npm](https://www.npmjs.com/package/aisnitch)
+<table width="100%">
+  <tr>
+    <td width="50%" valign="middle">
+      <img src="metrics.plugin.calendar.svg" width="100%" alt="Contributions calendar" />
+    </td>
+    <td width="50%" valign="top">
+      <h3>🛠️ Open Source Projects</h3>
+      <a href="https://github.com/vava-nessa/free-coding-models"><b>free-coding-models</b></a> 📊<br/>
+      TUI to find, benchmark &amp; install free coding LLMs · <b>2.5k+ GitHub Stars ⭐️</b> · <a href="https://www.npmjs.com/package/free-coding-models">npm</a>
+      <br/><br/>
+      <a href="https://github.com/vava-nessa/kandown"><b>kandown</b></a> ✅<br/>
+      The memory layer for long-running agent loops, in plain markdown · <a href="https://kandown.dev">kandown.dev</a> · <a href="https://www.npmjs.com/package/kandown">npm</a>
+    </td>
+  </tr>
+</table>
 
 ---
 
