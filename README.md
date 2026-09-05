@@ -34,7 +34,8 @@ Got a project in mind? **[Let's talk!](https://vanessadepraute.dev)**
     <td width="50%" valign="top">
       <h3>🛠️ Open Source Projects</h3>
       <a href="https://github.com/vava-nessa/free-coding-models"><b>free-coding-models</b></a> 📊<br/>
-      TUI to find, benchmark &amp; install free coding LLMs · <b>2.5k+ GitHub Stars ⭐️</b> · <a href="https://www.npmjs.com/package/free-coding-models">npm</a>
+      TUI to find, benchmark &amp; install free coding LLMs · <a href="https://www.npmjs.com/package/free-coding-models">npm</a><br/>
+      <b>2.5k+ GitHub Stars ⭐️</b>
       <br/><br/>
       <a href="https://github.com/vava-nessa/kandown"><b>kandown</b></a> ✅<br/>
       The memory layer for long-running agent loops, in plain markdown · <a href="https://kandown.dev">kandown.dev</a> · <a href="https://www.npmjs.com/package/kandown">npm</a>
@@ -46,19 +47,16 @@ Got a project in mind? **[Let's talk!](https://vanessadepraute.dev)**
 
 ## 🚀 Upcoming projects, work in progress
 
-- **[Out of Burn](#)** 🔥 · AI assisted mental health tracker. Guided routines, mood tracking & supportive tools to help people recover from burnout
-- **[Pylz](#)** 💊 · Beautifully designed medication reminder. Clear UI & accessibility first, for memory or cognitive difficulties
-- **[NexTTY](#)** 📟 · Next generation developer terminal designed for AI agents and AI driven coding. macOS native, agent orchestrator inside, shipping soon
-- **[ModelRadar](https://www.modelradar.dev)** ⭐️ · Discover, evaluate & track the latest AI coding models, tools and more · [repo](https://github.com/vava-nessa/modelradar)
+An **AI agent app for macOS** and **two healthcare apps**. That's all I can say for now, shipping soon 👀
 
 ---
 
-My daily harness: **Ghostty** with **Claude Code** in one tab and **Codex** in the other, **opencode** for whatever open model earns the seat, **Hermes agent** as second brain writing everything down in **Obsidian**, **herdr** to follow one tab per task from the Mac to the iPhone, and **Zed** to read the diff.
+My daily harness: **Ghostty** with **Claude Code** in one tab and **Codex** in the other, **pi** for the tasks small enough to throw away, and **Zcode** on **GLM 5.3 Flash**, which I'm using a ton right now: amazing and cheap model. **Hermes agent** stays my second brain, writing everything down in **Obsidian**, **herdr** follows one tab per task from the Mac to the iPhone, and **Zed** is where I read the diff.
 
 ---
 
 ## 🧰 Tech I love
-[JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) · [TypeScript](https://www.typescriptlang.org) · [Rust](https://www.rust-lang.org) · [Python](https://www.python.org) · [Astro](https://astro.build) · [Next.js](https://nextjs.org) · [React](https://react.dev) · [Tanstack Start](https://tanstack.com/start) · [Vite](https://vitejs.dev) · [Tailwind CSS](https://tailwindcss.com) · [shadcn/ui](https://ui.shadcn.com) · [WebGL](https://www.khronos.org/webgl/) · [Babylon.js](https://www.babylonjs.com) · [Swift](https://swift.org) · [SwiftUI](https://developer.apple.com/swiftui/) · [React Native](https://reactnative.dev) · [Expo](https://expo.dev) · [Node.js](https://nodejs.org) · [PostgreSQL](https://www.postgresql.org) · [Prisma](https://www.prisma.io) · [Supabase](https://supabase.com) · [Vercel](https://vercel.com) · [PostHog](https://posthog.com) · [Claude](https://claude.ai) · [Codex](https://openai.com/codex) · [Opencode](https://opencode.ai) · [Gemini CLI](https://github.com/google-gemini/gemini-cli) · [Ghostty](https://ghostty.org) · [Alacritty](https://alacritty.org) · [Zed](https://zed.dev) · [Obsidian](https://obsidian.md)
+[JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) · [TypeScript](https://www.typescriptlang.org) · [Rust](https://www.rust-lang.org) · [Python](https://www.python.org) · [Astro](https://astro.build) · [Next.js](https://nextjs.org) · [React](https://react.dev) · [Tanstack Start](https://tanstack.com/start) · [TanStack Query](https://tanstack.com/query) · [Vite](https://vitejs.dev) · [Tailwind CSS](https://tailwindcss.com) · [shadcn/ui](https://ui.shadcn.com) · [WebGL](https://www.khronos.org/webgl/) · [Babylon.js](https://www.babylonjs.com) · [Rive](https://rive.app) · [Swift](https://swift.org) · [SwiftUI](https://developer.apple.com/swiftui/) · [React Native](https://reactnative.dev) · [Flutter](https://flutter.dev) · [Expo](https://expo.dev) · [Xcode](https://developer.apple.com/xcode/) · [Android Studio](https://developer.android.com/studio) · [Node.js](https://nodejs.org) · [PostgreSQL](https://www.postgresql.org) · [Prisma](https://www.prisma.io) · [Convex](https://www.convex.dev) · [Supabase](https://supabase.com) · [Vercel](https://vercel.com) · [PostHog](https://posthog.com) · [Claude](https://claude.ai) · [Codex](https://openai.com/codex) · [Opencode](https://opencode.ai) · [Gemini CLI](https://github.com/google-gemini/gemini-cli) · [Ghostty](https://ghostty.org) · [Alacritty](https://alacritty.org) · [Zed](https://zed.dev) · [Obsidian](https://obsidian.md) · [Notion](https://www.notion.so) · [Linear](https://linear.app) · [Todoist](https://todoist.com) · [Affinity Designer](https://affinity.serif.com/designer/) · [GitHub](https://github.com)
 
 ---
 
