@@ -12,7 +12,7 @@ Based in **Paris, France** 🇫🇷, I've worked with major companies and startu
 
 🔨 Right now I'm heads-down on **three builds**: **two healthcare apps** (**React Native** and **Flutter**), and an **AI app for macOS** written in **Swift**, shipping soon.
 
-🤖 Lately, I've been working a lot with **AI Agents** and published **[free-coding-models](https://github.com/vava-nessa/free-coding-models)**, a TUI to find, benchmark & install free coding LLMs that got **2.5k+ GitHub Stars** ⭐
+🤖 Lately, I've been working a lot with **AI Agents** and published **[free-coding-models](https://github.com/vava-nessa/free-coding-models)**, a TUI to find, benchmark & install free coding LLMs that got **2.8k+ GitHub Stars** ⭐
 
 I'm also building **[kandown](https://github.com/vava-nessa/kandown)**, a local Kanban for long-running agent work. Every task is a plain Markdown file in your project, readable by you and your agents from a web board, a TUI, or the CLI. It's the missing memory layer for agent loops that run for hours.
 
